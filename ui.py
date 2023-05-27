@@ -58,7 +58,7 @@ class UI:
         aspect_ratio_combobox = ttk.Combobox(
             resolution_frame,
             textvariable=self.aspect_ratio,
-            values=["1:1", "3:2", "4:3", "16:9"],
+            values=["1:1", "3:2", "4:3", "16:9", "21:9", "9:21", "9:16", "3:4", "2:3"],
             state="readonly",
             width=5,
             style="TButton"
